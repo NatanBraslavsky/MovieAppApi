@@ -48,7 +48,7 @@ const NavBar = () => {
                         </svg>
                     </div>
                     {/* Search Result dropdown conditional rendering */}
-                    <div className='absolute mt-2 w-72 bg-neutral-800 rounded-lg shadow-lg overflow-hidden z-50'>
+                    <div className='absolute mt-2 w-full bg-neutral-800 rounded-lg shadow-lg overflow-hidden z-50'>
                         <ul className='divide-y divide-neutral-700'>
                             <li className='hover:bg-neutral-700'>
                                 <button className='flex items-center p-3 w-full text-left'>
@@ -75,7 +75,7 @@ const NavBar = () => {
                     </div>
 
                     {/* Conditional Rendering */}
-                    <div className='absolute mt-2 w-72 bg-neutral-800 rounded-lg shadow-lg overflow-hidden z-50'>
+                    <div className='absolute mt-2 w-full bg-neutral-800 rounded-lg shadow-lg overflow-hidden z-50'>
                         <div className='p-4 text-center text-neutral-400 text-sm'>
                             No movies found matching....
                         </div>
