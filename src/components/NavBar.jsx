@@ -4,7 +4,7 @@ const NavBar = () => {
   return (
     <header className='flex w-full z-50 transition-all duration-300'>
         <div className='container mx-auto px-4 py-4'>
-            <div className='flex items-center justify-between'>
+            <div className='flex items-center justify-between pr-[100px] max-lg:pr-[85px]'>
                 <div className='flex items-center'>
                     <a href="/" className='flex items-center'>
                         <span className='text-purple-500 font-bold text-3xl'>
@@ -48,7 +48,7 @@ const NavBar = () => {
                         </svg>
                     </div>
                     {/* Search Result dropdown conditional rendering */}
-                    <div className='absolute mt-2 w-full bg-neutral-800 rounded-lg shadow-lg overflow-hidden z-50'>
+                    <div className='absolute mt-2 w-72 bg-neutral-800 rounded-lg shadow-lg overflow-hidden z-50'>
                         <ul className='divide-y divide-neutral-700'>
                             <li className='hover:bg-neutral-700'>
                                 <button className='flex items-center p-3 w-full text-left'>
@@ -75,7 +75,7 @@ const NavBar = () => {
                     </div>
 
                     {/* Conditional Rendering */}
-                    <div className='absolute mt-2 w-full bg-neutral-800 rounded-lg shadow-lg overflow-hidden z-50'>
+                    <div className='absolute mt-2 w-72 bg-neutral-800 rounded-lg shadow-lg overflow-hidden z-50'>
                         <div className='p-4 text-center text-neutral-400 text-sm'>
                             No movies found matching....
                         </div>
